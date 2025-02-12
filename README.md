@@ -6,6 +6,6 @@
     <title>JESSICA SCHWARTZ, WEBD152 Spring Semester 2025</title>
 </head>
 <body>
-<p></p><a href="/chapter1">Chapter 1</a></p>
+<p><a href="/chapter1">Chapter 1</a></p>
 </body>
 </html>
