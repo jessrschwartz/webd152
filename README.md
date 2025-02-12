@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,9 +8,9 @@
 <body>
  <p>Welcome to my webpage!</p>
  <nav>
-    <a href="/chapter1/index.html">Chapter One</a>
-    <a href="">Chapter Two (coming soon)</a>
-    <a href="">Chapter Three (coming soon)</a>
+   <p> <a href="/chapter1/index.html">Chapter One</a></p>
+    <p><a href="">Chapter Two (coming soon)</a></p>
+    <p><a href="">Chapter Three (coming soon)</a></p>
  </nav>
 </body>
 </html>
