@@ -1,0 +1,22 @@
+body {
+    background-color: #fff; /* bgc#fff */
+    color: #555; /* c#555 */
+}
+header {
+    background-color: #002071; /* bgc#002171 */
+    color: #fff; /* c#fff */
+}
+nav {
+    background-color: #bbdefb; /* bgc#bbdefb */
+}
+h1{margin-bottom: 0; /* mb0 */
+}
+h2 {
+    color: #1976d2; /* c#1976d2 */
+}
+dt {
+    color: #002071; /* c#002071 */
+}
+.resort {
+    background-color: #1976d2; /* bgc#1976d2 */
+}
