@@ -7,5 +7,6 @@
 - [Chapter 3](https://jessrschwartz.github.io/webd152/chapter3/yoga/index.html)
 - [Chapter 4](https://jessrschwartz.github.io/webd152/chapter4/ch4pacific/index.html)
 - [Chapter 5](https://jessrschwartz.github.io/webd152/chapter5/ch5pacific/index.html)
+- [Chapter 6](https://jessrschwartz.github.io/webd152/chapter6/ch6pacific/index.html)
 
 Click on the links above to view each chapter assignment.
