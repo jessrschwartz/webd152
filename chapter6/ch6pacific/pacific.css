@@ -1,0 +1,96 @@
+body {
+    background-color: #90c7e3; /* bgc#90c7e3 */
+    background-image: linear-gradient(to bottom, #fff, #90c7e3); /* bgi */
+    background-repeat: no-repeat;
+    color: #555; /* c#555 */
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; /* ffa */
+}
+#wrapper {
+    background-color: #fff; /* bgc#002171 */
+    box-shadow: 3px 3px 3px #333; /* bs3px3px3px#333 */
+    margin-left: auto; /* ml-auto */
+    margin-right: auto; /* mr-auto */
+    min-width: 960px; /* mw960px */
+    max-width: 2048px; /* mw2048px */
+    width: 80%; /* w80% */
+}
+header {
+    background-color: #020732; /* bgc#002171 */
+    background-image: url(images/sunset.jpg); /* bgi */
+    background-position: right; /* bgdp */
+    background-repeat: no-repeat; /* bgr */
+    color: #fff; /* c#fff */
+    height: 60px; /* h60 */
+    padding-top: 15px; /* pt15 */
+    text-align: center; /* tac */
+
+}
+nav {
+    background-color: #fff; /* bgc#fff */
+    font-weight: bold; /* fwb */
+    padding: 1m; /* p1m */
+    text-align: center; /* tac */
+}
+nav a {
+    text-decoration: none; /* txd */
+}
+main {
+    padding: 1px 20px 20px; /* p1px20px20px */
+    display: block; /* db */
+}
+h1{
+    margin-bottom: 0; /* mb0 */
+    margin-top: 0; /* mt0 */
+
+}
+h1,
+h2,
+h3,
+footer {
+    font-family: Georgia, "Times New Roman", Times, Baskerville, serif;
+}
+h2 {
+    color: #1976d2; /* c#1976d2 */
+    text-shadow: 1px 1px 1px #ccc; /* ts1px1px1px#ccc */
+}
+h3 {
+    color: #003; /* c#003 */
+}
+dt {
+    color: #002071; /* c#002071 */
+}
+footer {
+    font-size: 75%; /* fz75% */
+    font-style: italic; /* fsi */
+    padding: 2em; /* p2em */
+    text-align: center; /* txa-c */
+
+}
+.resort {
+    background-color: #1976d2; /* bgc#1976d2 */
+    font-weight: bold; /* fwb */
+}
+#contact {
+    font-size: 90%; /* fz90% */
+} 
+#homehero {
+    background-image: url(images/coast.jpg); /* bgi */
+    background-position: center; /* bgdp */
+    background-repeat: no-repeat; /* bgr */
+    background-size: 100% 100% 100%; /* bgs100%100%100% */
+    height: 300px; /* h300 */
+}
+#yurthero {
+    background-image: url(images/yurt.jpg); /* bgi */
+    background-position: center; /* bgdp */
+    background-repeat: no-repeat; /* bgr */
+    background-size: 100% 100% 100%; /* bgs100%100%100% */
+    height: 300px; /* h300 */
+}
+#trailhero {
+    background-image: url(images/trail.jpg); /* bgi */
+    background-position: center; /* bgdp */
+    background-repeat: no-repeat; /* bgr */
+    background-size: 100% 100% 100%; /* bgs100%100%100% */
+    height: 300px; /* h300 */
+}
