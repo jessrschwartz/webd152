@@ -9,5 +9,6 @@
 - [Chapter 5](https://jessrschwartz.github.io/webd152/chapter5/ch5pacific/index.html)
 - [Chapter 6](https://jessrschwartz.github.io/webd152/chapter6/ch6pacific/index.html)
 - [Chapter 7](https://jessrschwartz.github.io/webd152/chapter7/ch7pacific/index.html)
+- [Chapter 8](https://jessrschwartz.github.io/webd152/chapter8/ch8pacific/index.html)
 
 Click on the links above to view each chapter assignment.
