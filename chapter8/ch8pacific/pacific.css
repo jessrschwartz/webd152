@@ -158,7 +158,6 @@ footer {
         text-align: left; /* tal */
         padding-left: 1em; /* pd1em */
     }
-}
     @supports (display: grid) {
         nav ul { flex-direction: column; /* fdc */ 
             padding-top: 1em; /* pt1em */
@@ -177,3 +176,4 @@ footer {
         / 180px 1fr;
         }
     }
+}
