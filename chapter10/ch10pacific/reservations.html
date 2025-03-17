@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacific Trails Resort :: Reservations</title>
+    <link rel="icon" type="image/x-icon" href="https://jessrschwartz.github.io/webd152/chapter10/ch10pacific/images/favicon.ico">
+    <link rel="stylesheet" href="pacific.css">
+    <script src="https://kit.fontawesome.com/bbaccee779.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="wrapper">
+
+    <header>
+        <h1><a href="https://jessrschwartz.github.io/webd152/chapter10/ch10pacific/index.html">Pacific Trails Resort</a></h1>
+    </header>    
+    <!-- nav>ul*4>a -->
+    <nav>
+     <ul>
+        <li><a href="https://jessrschwartz.github.io/webd152/chapter10/ch10pacific/index.html">Home</a></li>
+        <li><a href="https://jessrschwartz.github.io/webd152/chapter10/ch10pacific/yurts.html">Yurts</a></li>
+        <li><a href="https://jessrschwartz.github.io/webd152/chapter10/ch10pacific/activities.html">Activities</a></li>
+        <li><a href="https://jessrschwartz.github.io/webd152/chapter10/ch10pacific/reservations.html">Reservations</a></li>
+     </ul>
+    </nav>
+   
+    <!-- main>h2{}+p{} -->
+    <main>
+        <h2>Reservations at Pacific Trails</h2>
+        <h3>Contact Us Today!</h3>
+        <p>Required fields are marked with an asterisk *.</p>
+
+        <form action="https://webdevbasics.net/scripts/pacific.php" method="POST">
+            <label for="myFName">First Name:</label>
+            <input type="text" id="myFName" name="myFName" required>
+            <label for="myLName">Last Name:</label>
+            <input type="text" id="myLName" name="myLName" required>
+            <label for="myEmail">Email:</label>
+            <input type="email" id="myEmail" name="myEmail" required>
+            <label for="myPhone">Phone:</label>
+            <input type="tel" id="myPhone" name="myPhone" maxlength="12" required>
+            <label for="myArrival">Arrival Date:</label>
+            <input type="date" id="myArrival" name="myArrival" required>
+            <label for="myNights">Number of Nights:</label>
+            <input type="number" id="myNights" name="myNights" min="1" max="14" required>
+            <label for="myComments">Comments:</label>
+            <textarea id="myComments" name="myComments" cols="30" rows="2" required></textarea>
+            <input type="submit" value="Submit">
+
+
+
+
+
+        </form>
+
+
+
+
+
+        <!-- div>p -->
+        <div id="contact">
+            <p>Pacific Trails Resort
+                <br><i>12010 Pacific Trails Road 
+                    <br>Zephyr, California 95555 
+                    <br>Ph: 1-888-555-5555</i></p>
+        </div>
+        <h3>Reservations</h3>
+        <p>For reservations, call <a href="+18885555555">1-888-555-5555.</a>
+    </main>    
+
+    <!-- footer>p*2 -->
+    <footer>
+        <p>Copyright &copy; 2025 Pacific Trails Resort | Jessica Schwartz</p>
+    </footer>
+
+</div>  <!-- This is closing wrapper div tag -->
+
+</body>
+</html>
