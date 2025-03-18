@@ -14,5 +14,6 @@
 - [Chapter 10](https://jessrschwartz.github.io/webd152/chapter10/ch10pacific/index.html)
 - [Chapter 11](https://jessrschwartz.github.io/webd152/chapter11/ch11pacific/index.html)
 - [Chapter 12](https://jessrschwartz.github.io/webd152/chapter12/ch12pacific/index.html)
+- [Flex Extra Credit](https://jessrschwartz.github.io/webd152/flex/index.html)
   
 Click on the links above to view each chapter assignment.
