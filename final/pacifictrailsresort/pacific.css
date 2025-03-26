@@ -1,0 +1,326 @@
+* {
+    box-sizing: border-box; /* bxbb */
+    }
+    body {
+    background-color: #eaeaea; /* bgc#90c7e3 */
+    color: #555; /* c#fff */
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; /* ffa */
+    }
+    #wrapper {
+    background-color: #90c7e3; /* bgc#fff */
+    background-image: linear-gradient(to bottom, #fff, #90c7e3);
+    }
+    header {
+    background-color: #000032; /* bgc#002171 */
+    background-image: url(images/sunset.jpg); /* bgi */
+    background-position: right; /* bgdp */
+    background-repeat: no-repeat; /* bgr */
+    background-size: contain; /* bgz */
+    color: #fff; /* c#fff */
+    padding: 0.5em; /* p0.5em */
+    text-align: center; /* tac */
+    }
+    header a {
+    text-decoration: none; /* txd */
+    }
+    header a:link,
+    header a:visited {
+    color: #fff; /* c#fff */
+    }
+    header a:hover {
+    color: #90c7e3; /* c#90c7e3 */
+    }
+    nav {
+    /* font-size: 120%; */
+    font-weight: bold; /* fwb */
+    padding: 0; /* p0 */
+    text-align: center; /* tac */
+    }
+    nav ul {
+    font-size: 1.2em; /* fz1.2em */
+    list-style-type: none; /* listn */
+    margin: 0; /* m0 */
+    padding-left: 0; /* pl0 */
+    }
+    nav li {
+    border-bottom: 1px solid #002171; /* bdb1-solid-#002171 */
+    }
+    nav a {
+    text-decoration: none; /* txd */
+    transition: color 3s ease-in-out; /* t:color3seio */
+    }
+    nav a:link {
+    color: #5c7fa3; /* c#5c7fa3 */
+    }
+    nav a:visited {
+    color: #344873; /* c#344873 */
+    }
+    nav a:hover {
+    color: #a52a2a; /* c#a52a2a */
+    }
+    main {
+    background-color: #fff; /* bgc#fff */
+    padding: 1px 20px 20px 30px;
+    display: block;
+    overflow: auto; /* ova */
+    }
+    h1 {
+    /* font-size: 3em; fz3em */
+    letter-spacing: 0.25em; /* lts.25em */
+    margin-bottom: 0.5em; /* mb0 */
+    margin-top: 0.5em; /* mt0 */
+    }
+    h1,
+    h2,
+    h3,
+    footer {
+    font-family: Georgia, "Times New Roman", serif;
+    }
+    h2 {
+    color: #1976d2; /* c#1976d2 */
+    text-shadow: 1px 1px #404040;
+    }
+    h3 {
+    color: #003; /* c#003 */
+    }
+    dt {
+    color: #002171; /* c#002171 */
+    }
+    footer {
+    background-color: #fff; /* bgc#fff */
+    font-size: 75%; /* fz75% */
+    font-style: italic; /* fsi */
+    padding: 2em;
+    text-align: center; /* txa */
+    }
+    .resort {
+    color: #1976d2; /* c#1976d2 */
+    font-weight: bold; /* fwb */
+    }
+    #contact {
+    font-size: 90%; /* fz90% */
+    }
+    #homehero {
+    background-image: url(images/coast2.jpg); /* bgi */
+    background-repeat: no-repeat; /* bgr */
+    background-size: 100% 100%; /* bgz100%100% */
+    height: 300px; /* h300 */
+    }
+    #yurthero {
+    background-image: url(images/yurt.jpg); /* bgi */
+    background-repeat: no-repeat; /* bgr */
+    background-size: 100% 100%; /* bgz100%100% */
+    height: 300px; /* h300 */
+    }
+    #trailhero {
+    background-image: url(images/trail.jpg); /* bgi */
+    background-repeat: no-repeat; /* bgr */
+    background-size: 100% 100%; /* bgz100%100% */
+    height: 300px; /* h300 */
+    }
+    #abouthero {
+    background-image: url(images/camping.jpg); /* bgi */
+    background-repeat: no-repeat; /* bgr */
+    background-size: 100% 100%; /* bgz100%100% */
+    height: 300px; /* h300 */
+    }
+    table {
+    border-bottom: 2px solid #1976d2; /* bb2-solid#1976d2 */
+    border-collapse: separate; /* bcs */
+    }
+    th {
+    background-color: #1976d2; /* bgc#1976d2 */
+    color: #fff; /* c#fff */
+    }
+    td,
+    th {
+    padding: 0.5em;
+    /* border: 2px solid #39c; */
+    }
+    td {
+    text-align: center; /* tac */
+    }
+    .text {
+    text-align: left; /* ta:l */
+    }
+    .float-left {
+        float: left; /* fll */
+        height: 200px; /* h200 */
+        margin: 0 1em 1em 0; /* m0-1em1em0 */
+        padding: 1em; /* p1em */
+        width: 200px; /* w200 */
+        box-shadow: 3px 3px 3px #777; /* bs3-3-3-#777 */
+    }
+    .float-right {
+        float: right; /* flr */
+        height: 200px; /* h200 */
+        margin: 0 1em 1em 0; /* m0-1em1em0 */
+        padding: 1em; /* p1em */
+        width: auto; /* wauto */
+        box-shadow: 3px 3px 3px #777; /* bs3-3-3-#777 */
+    }
+    tr:nth-last-of-type(odd) {
+    background-color: #ffcd6f;
+    }
+form{display: flex; /* df */
+flex-flow: column nowrap; /* ffcn */
+    }
+input, textarea {
+    margin-bottom: .5em; /* mb.5em */
+    }
+video {
+    float: right; /* flr */
+    margin: 1em; /* m1em */
+    }
+ #gallery {
+        display: grid; /* dg */
+        gap:  2em; /* g2em */
+    }
+#gallery img {
+        box-shadow: 10px 10px 10px #777; /* bs10-10-10-#777 */
+        text-align: center; /* tac */
+        width: 100%; /* w100% */
+    }
+    @media (max-width: 600px) {
+    header {
+    background-image: none;
+    }
+    #homehero,
+    #yurthero,
+    #trailhero,
+    #abouthero {
+    background-size: auto;
+    }
+    /* Table styles for smartphone devices */
+    #special table {
+    display: block; /* db */
+    border-bottom: none; /* bd:n */
+    }
+    #special td,
+    #special th {
+    display: block; /* db */
+    }
+    #special thead {
+    display: none; /* dn */
+    }
+    td.package::before {
+    content: "Package:";
+    }
+    td.description::before {
+    content: "Description:";
+    }
+    td.nights::before {
+    content: "Nights:";
+    }
+    td.cost::before {
+    content: "Cost:";
+    }
+    td.package,
+    td.description,
+    td.nights,
+    td.cost {
+    padding-left: 35%; /* pl35% */
+    position: relative; /* posr */
+    text-align: left; /* tal */
+    font-size: 4vw; /* fz4vw */ /* vw = relative height of % of browser */
+    }
+    td::before {
+    position: absolute; /* posa */
+    top: 10px; /* t6 */
+    left: 0.5em; /* l.5em */
+    font-weight: bold; /* fwb */
+    color: #1976d2; /* c#1976d2 */
+    }
+    td:last-of-type {
+    border-bottom: 2px solid #1b69b2; /*bb2-solid#1b69b2 */
+    }
+    }
+    @media (min-width: 600px) {
+        nav ul {
+            display: flex; /* df */
+            flex-direction: row; /* fdr */
+            flex-wrap: nowrap; /* fwn */
+            justify-content: space-around; /* jcsa */
+        }
+        nav li {
+            border-bottom: none; /* bbn */
+        }
+        .flow {
+            display: flex; /* df */
+            flex-direction: row; /* fdr */
+        }
+        section {
+            flex: 1; /* flex1 */
+            margin-right: 1em; /* mr1em */
+        }
+        form {
+            display: grid; /* dg */
+            grid-template-columns: 6em 1fr; /* gtc6em1fr */
+            grid-gap: 1em; /* gg1em */
+            max-width: 30px; /* mw30px */
+        }
+        input[type="submit"] {
+            grid-column: 2 / 3; /* gc2/3 */
+            width: 9em; /* w9em */
+        }
+        #gallery {
+            grid-template-columns: repeat(2, 1fr); /* gtc3 */
+        }
+    }
+@media (max-width:730px) {
+    video { 
+        display: block; /* db */
+        float: none; /* fln */
+        clear: both; /* clb */
+        min-width: 100%; /* mw100% */
+        margin: 0 auto; /* m0a */
+    }
+}
+    @media (min-width: 1024px) {
+    #wrapper {
+    margin: auto; /* m:a */
+    width: 80%; /* w80% */
+    border: 1px solid #002171; /* bd1-solid-#002171 */
+    box-shadow: 3px 3px 3px #002171; /* bs3-3-3-#002171 */
+    }
+    nav {
+    text-align: left; /* ta:l */
+    padding-left: 1em; /* pl1em */
+    }
+    @supports (display: grid) {
+    nav ul {
+    flex-direction: column; /* fdc */
+    padding-top: 1em; /* pt1em */
+    }
+    .hero {
+    grid-area: hero; /* ga:hero */
+    }
+    header {
+    grid-area: header; /* ga:header */
+    }
+    nav {
+    grid-area: nav; /* ga:nav */
+    }
+    main {
+    grid-area: main; /* ga:main */
+    }
+    #gallery {
+        grid-area: gallery; /* ga:gallery */
+    }
+    footer {
+    grid-area: footer; /* ga:footer */
+    }
+    #wrapper {
+    display: grid; /* dg */
+    grid-template:
+    "header header"
+    "nav hero"
+    "nav main"
+    "nav footer"
+    / 180px 1fr;
+    }
+#gallery {
+    grid-template-columns: repeat(3, 1fr); /* gtc3 */
+}
+    }
+    }
